@@ -1,9 +1,7 @@
-# willynolan.com
+# movingpicturesbar.com
 
 ## Description
-This repo contains my personal website.
-
-It is built to run on [Jekyll](https://jekyllrb.com/) and to be hosted on GitHub pages.
+This repo contains the website for the bar moving pictures
 
 ## Project Structure
 - This project uses the same directory structure as most Jekyll projects.
