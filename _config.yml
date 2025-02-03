@@ -1,0 +1,33 @@
+#file: noinspection YAMLSchemaValidation,YAMLSchemaValidation
+
+# Site config
+baseurl: ""
+highlighter: rouge
+sass:
+  sass_dir: assets/scss
+  style: compressed
+
+# Development settings
+host: 0.0.0.0
+port: 9001
+
+author: "WAKI-TAKI"
+title: "WAKI-TAKI"
+faviconcolor: "#2cdad7"
+keywords: "Projection Mapping, Art, Music"
+
+instagram: "https://www.instagram.com/waki-taki/"
+email: "contact@WAKI-TAKI.com"
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: default
+      type: post
+      class: "post video-post"
